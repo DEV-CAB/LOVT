@@ -2,6 +2,7 @@ html, body{
     font-family: 'Ropa Sans', sans-serif;
     margin:0;
     text-align:center;
+    background-color: #333333;
 }
 .wrapper{
     max-width: 1000px;
@@ -96,12 +97,17 @@ content .style_menu ul li.industrial{
     background-size: cover;
     
 }
-content .style_menu ul li.modern{
-    background: url("./images/modern.png");
+content .style_menu ul li.Modern{
+    background: url("./images/Modern.png");
+    background-size: cover;
+}
+
+content .style_menu ul li.Classic{
+    background: url("./images/Modern.png");
     background-size: cover;
 }
 footer{
-    background-color: #333333;
+    background-color: #cfe412;
     color: #FFFFFF;
     padding-bottom: 40px;
 }
