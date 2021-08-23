@@ -8,12 +8,14 @@ html, body{
     margin:0 auto;
     overflow: hidden;
     text-align:left;
+   
 }
 header{
     -webkit-box-shadow: 0px 5px 20px 5px rgba(122,122,122,0.4); 
     box-shadow: 0px 5px 20px 5px rgba(122,122,122,0.4);
     margin-bottom: 30px;
     padding: 15px 0;
+    background-color:#9e0e21 ;
     
 }
 header h1{
@@ -91,6 +93,11 @@ content .style_menu ul li a{
 }
 content .style_menu ul li.industrial{
     background: url("./images/industrial.png");
+    background-size: cover;
+    
+}
+content .style_menu ul li.modern{
+    background: url("./images/modern.png");
     background-size: cover;
 }
 footer{
